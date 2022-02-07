@@ -1,13 +1,12 @@
-import {Cliente} from "./clientes.js";
-import {Impuesto} from "./impuesto.js";
 
-const impuestoUno = new Impuesto()
+   
+import { Cliente } from "./cliente.js";
+import { Impuesto } from "./impuesto.js";
 
-impuestoUno.montoBrutoAnual = 222222222
-impuestoUno.deducciones = 4000
+const impuestoUno = new Impuesto();
+impuestoUno.montoBrutoAnual = 1000000;
+impuestoUno.deducciones = 2000;
 
-const cliente1 = new Cliente (ClientesUno, impuestoUno)
-const resultadoClientes1 = cliente1.calcularImpuesto()
+const cliente1 = new Cliente("ClienteUno", impuestoUno);
+const resultadoCliente1 = cliente1.calcularImpuesto();
 console.log(resultadoCliente1);
-
-
