@@ -1,5 +1,3 @@
-
-   
 import { Cliente } from "./cliente.js";
 import { Impuesto } from "./impuesto.js";
 
