@@ -18,7 +18,7 @@
   "homepage": "https://github.com/jsuazof/Desafio---ClasesEnES6#readme",
   "description": "",
   "devDependencies": {
-    "@babel/cli": "^7.17.0",
+    "@babel/cli": "^8.0.6",
     "@babel/core": "^7.17.0",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.16.11"
